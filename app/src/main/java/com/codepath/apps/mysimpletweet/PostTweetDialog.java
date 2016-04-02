@@ -33,52 +33,47 @@ public class PostTweetDialog extends DialogFragment  {
     private PostTweetInterface dialogFragment;
     ArrayList<Tweet> tweets;
     TweetArrayAdapter adapter;
-
     public Dialog onCreateDialog(Bundle savedInstanceState) {
-        Dialog dialog = new Dialog(getActivity());
-        dialog.setContentView(R.layout.post_tweet);
-        final EditText etComposeTweet = (EditText) dialog.findViewById(R.id.posttxt);
+        LayoutInflater inflater = getActivity().getLayoutInflater();
+        View dialogView = inflater.inflate(R.layout.post_tweet, null);
+        EditText etComposeTweet = (EditText) dialogView.findViewById(R.id.posttxt);
+
         final String body = String.valueOf(etComposeTweet.getText());
+
         tweets = new ArrayList<>();
         adapter = new TweetArrayAdapter(tweets);
-        Log.d("DEBUG",String.valueOf(etComposeTweet.getText()));
         AlertDialog.Builder TweetDialog = new AlertDialog.Builder(getActivity());
         TweetDialog.setTitle("Post Tweet");
-        LayoutInflater inflater = getActivity().getLayoutInflater();
-        TweetDialog.setView(inflater.inflate(R.layout.post_tweet,null))
+        TweetDialog.setView(dialogView)
                 .setPositiveButton("Continue", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         client.postTweet(body, new JsonHttpResponseHandler() {
                             @Override
                             public void onSuccess(int statusCode, Header[] headers, JSONObject json) {
-
                                 Tweet myNewTweet = Tweet.fromJSON(json);
-                                Log.d("DEBUG", json.toString());
+                                Log.d("DEBUG",String.valueOf(json.toString()));
                                 tweets.add(myNewTweet);
-
-
+                                adapter.notifyDataSetChanged();
                             }
-
                             @Override
                             public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
-                                Log.d("Eror",errorResponse.toString());
+                                Log.d("Error", errorResponse.toString());
                             }
 
                         });
 
                     }
 
-                }).setNegativeButton("Cancel",new DialogInterface.OnClickListener()
-        {
+                }).setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
 
             @Override
-        public void onClick(DialogInterface dialog, int id)
-            {
+            public void onClick(DialogInterface dialog, int id) {
                 dialogFragment.onDialogNegativeClick(PostTweetDialog.this);
             }
         });
         return TweetDialog.create();
+
     }
 
 }
