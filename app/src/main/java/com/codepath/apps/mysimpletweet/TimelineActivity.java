@@ -35,7 +35,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TimelineActivity extends AppCompatActivity {
-    private PostTweetDialog PostDialog = new PostTweetDialog();
+    private PostTweetDialog PostDialog;
     private RestClient client;
     private ArrayList<Tweet> Tweet;
     private TweetArrayAdapter taAdapter;
@@ -67,7 +67,9 @@ public class TimelineActivity extends AppCompatActivity {
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         rvItems.setLayoutManager(new LinearLayoutManager(this));
         client = RestApplication.getRestClient();
+        PostDialog = new PostTweetDialog(client);
         populateTimeline(1);
+
         rvItems.addOnScrollListener(new EndlessRecyclerViewScrollListener(linearLayoutManager) {
             @Override
             public void onLoadMore(int page, int totalItemsCount) {
@@ -84,7 +86,8 @@ public class TimelineActivity extends AppCompatActivity {
 
     }
 
-    public void doThis(MenuItem item) {
+    public void doThis(MenuItem item)
+    {
         PostDialog.show(getFragmentManager(), "fragment_dialog");
     }
 

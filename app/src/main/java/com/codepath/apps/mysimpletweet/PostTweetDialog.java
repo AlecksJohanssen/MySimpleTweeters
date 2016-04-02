@@ -1,5 +1,6 @@
 package com.codepath.apps.mysimpletweet;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -27,19 +28,24 @@ import java.util.ArrayList;
 /**
  * Created by AlecksJohanssen on 4/1/2016.
  */
+@SuppressLint("ValidFragment")
 public class PostTweetDialog extends DialogFragment  {
-
     private RestClient client;
     private PostTweetInterface dialogFragment;
     ArrayList<Tweet> tweets;
     TweetArrayAdapter adapter;
+    String body;
+    private EditText etComposeTweet;
+    @SuppressLint("ValidFragment")
+    public PostTweetDialog(RestClient client) {
+        this.client = client;
+    }
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         LayoutInflater inflater = getActivity().getLayoutInflater();
-        View dialogView = inflater.inflate(R.layout.post_tweet, null);
-        EditText etComposeTweet = (EditText) dialogView.findViewById(R.id.posttxt);
-
-        final String body = String.valueOf(etComposeTweet.getText());
-
+        final View dialogView = inflater.inflate(R.layout.post_tweet, null);
+        etComposeTweet = (EditText) dialogView.findViewById(R.id.posttxt);
+        etComposeTweet.requestFocus();
+        body = String.valueOf(etComposeTweet.getText());
         tweets = new ArrayList<>();
         adapter = new TweetArrayAdapter(tweets);
         AlertDialog.Builder TweetDialog = new AlertDialog.Builder(getActivity());
@@ -52,9 +58,14 @@ public class PostTweetDialog extends DialogFragment  {
                             @Override
                             public void onSuccess(int statusCode, Header[] headers, JSONObject json) {
                                 Tweet myNewTweet = Tweet.fromJSON(json);
-                                Log.d("DEBUG",String.valueOf(json.toString()));
-                                tweets.add(myNewTweet);
-                                adapter.notifyDataSetChanged();
+                                tweets.add(0,myNewTweet);
+                                adapter.notifyItemInserted(0);
+                                Toast toast = Toast.makeText(getActivity(), "Tweet posted!", Toast.LENGTH_SHORT);
+                                View view = toast.getView();
+                                view.setBackgroundColor(0xC055ACEE);
+                                TextView textView = (TextView) view.findViewById(android.R.id.message);
+                                textView.setTextColor(0xFFFFFFFF);
+                                toast.show();
                             }
                             @Override
                             public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
