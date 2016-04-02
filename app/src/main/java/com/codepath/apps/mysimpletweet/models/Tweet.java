@@ -76,7 +76,7 @@ public class Tweet {
                     JSONObject a = media.getJSONObject(i);
                     if (a.getString("type").equals("photo")) {
                         twt.urlImageNews = a.getString("media_url_https");
-                        Log.d("MEDIA", twt.urlImageNews);
+
                     }
                 }
             }
@@ -98,7 +98,7 @@ public class Tweet {
                 Tweet tweet = Tweet.fromJSON(tweetjson);
                 if(tweet != null)
                 {
-                    Log.d("debug", "i::"+tweet.getCreateAt());
+
                     tweets.add(tweet);
                 }
 

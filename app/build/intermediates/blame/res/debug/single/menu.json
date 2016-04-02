@@ -16,6 +16,10 @@
         "source": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\src\\main\\res\\menu\\login.xml"
     },
     {
+        "merged": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_icon_text_tabs.xml",
+        "source": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\src\\main\\res\\menu\\menu_icon_text_tabs.xml"
+    },
+    {
         "merged": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
         "source": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\src\\main\\res\\menu\\menu_main.xml"
     }
