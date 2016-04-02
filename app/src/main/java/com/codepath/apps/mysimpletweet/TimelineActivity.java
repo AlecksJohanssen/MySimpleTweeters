@@ -47,7 +47,6 @@ public class TimelineActivity extends AppCompatActivity {
             R.drawable.ic_tab_call,
 
     };
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,7 +68,6 @@ public class TimelineActivity extends AppCompatActivity {
         client = RestApplication.getRestClient();
         PostDialog = new PostTweetDialog(client);
         populateTimeline(1);
-
         rvItems.addOnScrollListener(new EndlessRecyclerViewScrollListener(linearLayoutManager) {
             @Override
             public void onLoadMore(int page, int totalItemsCount) {
@@ -86,7 +84,7 @@ public class TimelineActivity extends AppCompatActivity {
 
     }
 
-    public void doThis(MenuItem item)
+    public void doThis(MenuItem menuItem)
     {
         PostDialog.show(getFragmentManager(), "fragment_dialog");
     }

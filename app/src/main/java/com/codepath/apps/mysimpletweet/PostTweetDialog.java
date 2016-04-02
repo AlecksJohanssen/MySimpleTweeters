@@ -9,6 +9,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.InputType;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -41,11 +42,9 @@ public class PostTweetDialog extends DialogFragment  {
         this.client = client;
     }
     public Dialog onCreateDialog(Bundle savedInstanceState) {
+
         LayoutInflater inflater = getActivity().getLayoutInflater();
         final View dialogView = inflater.inflate(R.layout.post_tweet, null);
-        etComposeTweet = (EditText) dialogView.findViewById(R.id.posttxt);
-        etComposeTweet.requestFocus();
-        body = String.valueOf(etComposeTweet.getText());
         tweets = new ArrayList<>();
         adapter = new TweetArrayAdapter(tweets);
         AlertDialog.Builder TweetDialog = new AlertDialog.Builder(getActivity());
@@ -54,22 +53,18 @@ public class PostTweetDialog extends DialogFragment  {
                 .setPositiveButton("Continue", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
+                        etComposeTweet = (EditText) dialogView.findViewById(R.id.posttxt);
+                        body = etComposeTweet.getText().toString();
                         client.postTweet(body, new JsonHttpResponseHandler() {
                             @Override
                             public void onSuccess(int statusCode, Header[] headers, JSONObject json) {
                                 Tweet myNewTweet = Tweet.fromJSON(json);
                                 tweets.add(0,myNewTweet);
                                 adapter.notifyItemInserted(0);
-                                Toast toast = Toast.makeText(getActivity(), "Tweet posted!", Toast.LENGTH_SHORT);
-                                View view = toast.getView();
-                                view.setBackgroundColor(0xC055ACEE);
-                                TextView textView = (TextView) view.findViewById(android.R.id.message);
-                                textView.setTextColor(0xFFFFFFFF);
-                                toast.show();
                             }
                             @Override
                             public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
-                                Log.d("Error", errorResponse.toString());
+                                Log.d("Madness", errorResponse.toString());
                             }
 
                         });
