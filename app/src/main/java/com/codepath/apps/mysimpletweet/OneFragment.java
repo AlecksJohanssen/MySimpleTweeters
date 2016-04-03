@@ -1,7 +1,9 @@
 package com.codepath.apps.mysimpletweet;
 
+import android.graphics.pdf.PdfDocument;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -18,7 +20,8 @@ import org.json.JSONArray;
 import java.util.ArrayList;
 
 public class OneFragment extends Fragment {
-        private TweetArrayAdapter adapter;
+    private SwipeRefreshLayout swipeContainer;
+    private TweetArrayAdapter adapter;
         private RecyclerView rvItems;
         public TimelineActivity timeline;
         private int page;
@@ -36,6 +39,7 @@ public class OneFragment extends Fragment {
         View v = layoutInflater.inflate(R.layout.fragment_one, null);
         tweets = new ArrayList<>();
         adapter = new TweetArrayAdapter(tweets);
+        swipeContainer = (SwipeRefreshLayout) v.findViewById(R.id.swipeContainer);
         rvItems = (RecyclerView) v.findViewById(R.id.rvItems);
         rvItems.setLayoutManager(new LinearLayoutManager(getActivity()));
         rvItems.setAdapter(adapter);
@@ -45,7 +49,21 @@ public class OneFragment extends Fragment {
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        populateTimeline(page);
+        populateTimeline(1);
+        swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                adapter.clear();
+                populateTimeline(page);
+                swipeContainer.setEnabled(true);
+                adapter.addAll(tweets);
+                adapter.notifyDataSetChanged();
+            }
+        });
+        swipeContainer.setColorSchemeResources(android.R.color.holo_blue_bright,
+                android.R.color.holo_green_light,
+                android.R.color.holo_orange_light,
+                android.R.color.holo_red_light);
     }
 
     public void populateTimeline(int page) {
@@ -54,9 +72,9 @@ public class OneFragment extends Fragment {
             public void onSuccess(int statusCode, Header[] headers, JSONArray response) {
                 Log.d("DEBUG", response.toString());
                 tweets.addAll(Tweet.fromJSONArray(response));
-
                 Log.d("DEBUG", "null " + (tweets.size()));
                 adapter.updateTweets(tweets);
+                swipeContainer.setRefreshing(false);
             }
 
             @Override

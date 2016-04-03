@@ -32,7 +32,16 @@ View tweetView;
         lTweets = list;
         notifyDataSetChanged();
     }
+    public void clear() {
+        lTweets.clear();
+        notifyDataSetChanged();
+    }
 
+    // Add a list of items
+    public void addAll(List<Tweet> list) {
+        lTweets.addAll(list);
+        notifyDataSetChanged();
+    }
     public static class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         private ImageView ivProfile;
         private TextView tvUsername;
@@ -77,6 +86,7 @@ View tweetView;
         holder.ivProfile.setImageResource(android.R.color.transparent);
         Glide.with(context).load(tweet.getUser().getProfileImageUrl()).into(holder.ivProfile);
     }
+
     @Override
     public int getItemCount() {
         if(lTweets == null){
