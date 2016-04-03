@@ -2314,11 +2314,11 @@ containing a value of this type.
         public static final int customPanel=0x7f0b004f;
         public static final int decor_content_parent=0x7f0b0058;
         public static final int default_activity_button=0x7f0b0040;
-        public static final int design_bottom_sheet=0x7f0b006f;
-        public static final int design_menu_item_action_area=0x7f0b0076;
-        public static final int design_menu_item_action_area_stub=0x7f0b0075;
-        public static final int design_menu_item_text=0x7f0b0074;
-        public static final int design_navigation_view=0x7f0b0073;
+        public static final int design_bottom_sheet=0x7f0b006e;
+        public static final int design_menu_item_action_area=0x7f0b0075;
+        public static final int design_menu_item_action_area_stub=0x7f0b0074;
+        public static final int design_menu_item_text=0x7f0b0073;
+        public static final int design_navigation_view=0x7f0b0072;
         public static final int disableHome=0x7f0b000e;
         public static final int edit_query=0x7f0b005c;
         public static final int end=0x7f0b0021;
@@ -2351,7 +2351,7 @@ containing a value of this type.
         public static final int middle=0x7f0b0032;
         public static final int mini=0x7f0b0030;
         public static final int multiply=0x7f0b0027;
-        public static final int navigation_header_container=0x7f0b0072;
+        public static final int navigation_header_container=0x7f0b0071;
         public static final int never=0x7f0b0036;
         public static final int none=0x7f0b0010;
         public static final int normal=0x7f0b000c;
@@ -2364,7 +2364,7 @@ containing a value of this type.
         public static final int progress_horizontal=0x7f0b0007;
         public static final int radio=0x7f0b0054;
         public static final int right=0x7f0b0024;
-        public static final int rvItems=0x7f0b006d;
+        public static final int rvItems=0x7f0b0076;
         public static final int screen=0x7f0b0028;
         public static final int scroll=0x7f0b0018;
         public static final int scrollIndicatorDown=0x7f0b004e;
@@ -2386,8 +2386,8 @@ containing a value of this type.
         public static final int showCustom=0x7f0b0011;
         public static final int showHome=0x7f0b0012;
         public static final int showTitle=0x7f0b0013;
-        public static final int snackbar_action=0x7f0b0071;
-        public static final int snackbar_text=0x7f0b0070;
+        public static final int snackbar_action=0x7f0b0070;
+        public static final int snackbar_text=0x7f0b006f;
         public static final int snap=0x7f0b0019;
         public static final int spacer=0x7f0b0045;
         public static final int split_action_bar=0x7f0b0008;
@@ -2408,7 +2408,7 @@ containing a value of this type.
         public static final int toolbar=0x7f0b0069;
         public static final int top=0x7f0b0026;
         public static final int topPanel=0x7f0b0047;
-        public static final int touch_outside=0x7f0b006e;
+        public static final int touch_outside=0x7f0b006d;
         public static final int tvBodyText=0x7f0b007b;
         public static final int tvDate=0x7f0b0079;
         public static final int tvName=0x7f0b0078;
