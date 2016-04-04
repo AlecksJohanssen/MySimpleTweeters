@@ -1,8 +1,6 @@
 package com.codepath.apps.mysimpletweet.models;
 
 import android.text.format.DateUtils;
-import android.util.Log;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -22,6 +20,12 @@ public class Tweet {
     private User user;
     private String urlImageNews;
     private static String url;
+    public ArrayList<User> mentions;
+    public String textMentions;
+    public String getTextMentions()
+    {
+        return textMentions;
+    }
     public String getUrlImageNews()
     {
         return urlImageNews;
@@ -37,7 +41,6 @@ public class Tweet {
     public String getCreateAt() {
         return createAt;
     }
-
     public User getUser() {
         return user;
     }
@@ -45,7 +48,6 @@ public class Tweet {
     {
         return url;
     }
-
     public String getRelativeTimeAgo() {
         String twitterFormat = "EEE MMM dd HH:mm:ss ZZZZZ yyyy";
         SimpleDateFormat sf = new SimpleDateFormat(twitterFormat, Locale.ENGLISH);
@@ -70,6 +72,8 @@ public class Tweet {
             twt.uid = jsonObject.getLong("id");
             twt.createAt = jsonObject.getString("created_at");
             twt.user = User.fromJSON(jsonObject.getJSONObject("user"));
+            twt.mentions = LoadMentions(jsonObject);
+            twt.textMentions = jsonObject.getString("text");
             JSONArray media = jsonObject.getJSONObject("entities").optJSONArray("media");
             if (media != null) {
                 for (int i = 0; i < media.length(); i++) {
@@ -78,6 +82,7 @@ public class Tweet {
                         twt.urlImageNews = a.getString("media_url_https");
 
                     }
+
                 }
             }
 
@@ -87,6 +92,20 @@ public class Tweet {
         }
 
         return twt;
+    }
+    private static ArrayList<User> LoadMentions(JSONObject object) throws JSONException{
+        if (!object.getJSONObject("entities").has("user_mentions")) {
+            return  null;
+        }
+
+        ArrayList<User> mentions = new ArrayList<User>();
+        JSONArray mentionsJSON = object.getJSONObject("entities").getJSONArray("user_mentions");
+        for (int i = 0; i < mentionsJSON.length(); i++) {
+            User user = User.fromJSON(mentionsJSON.getJSONObject(i));
+            mentions.add(user);
+        }
+        return mentions;
+
     }
     public static ArrayList<Tweet> fromJSONArray(JSONArray jsonArray)
     {
@@ -108,5 +127,5 @@ public class Tweet {
             }
         }
         return tweets;
-        }
+    }
 }
