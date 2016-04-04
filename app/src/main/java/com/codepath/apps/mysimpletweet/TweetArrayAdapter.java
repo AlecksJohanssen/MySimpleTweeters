@@ -14,6 +14,9 @@ import com.codepath.apps.mysimpletweet.models.Tweet;
 
 import java.util.List;
 
+import butterknife.Bind;
+import butterknife.ButterKnife;
+
 /**
  * Created by AlecksJohanssen on 3/26/2016.
  */
@@ -43,18 +46,14 @@ View tweetView;
         notifyDataSetChanged();
     }
     public static class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        private ImageView ivProfile;
-        private TextView tvUsername;
-        private TextView tvBody;
-        private ImageView ivNew;
-        private TextView tvDate;
+        @Bind(R.id.ivAva) ImageView ivProfile;
+        @Bind(R.id.tvName) TextView tvUsername;
+        @Bind(R.id.tvBodyText) TextView tvBody;
+        @Bind(R.id.ivPictures) ImageView ivNew;
+        @Bind(R.id.tvDate) TextView tvDate;
         public ViewHolder(View view) {
             super(view);
-            ivProfile = (ImageView) view.findViewById(R.id.ivAva);
-            tvUsername = (TextView) view.findViewById(R.id.tvName);
-            tvBody = (TextView) view.findViewById(R.id.tvBodyText);
-            ivNew = (ImageView) view.findViewById(R.id.ivPictures);
-            tvDate = (TextView) view.findViewById(R.id.tvDate);
+            ButterKnife.bind(this,view);
             view.setOnClickListener(this);
 
         }

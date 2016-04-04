@@ -19,6 +19,8 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
+import butterknife.Bind;
+
 
 public class TwoFragment extends Fragment{
     private SwipeRefreshLayout swipeContainer;

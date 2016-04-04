@@ -16,6 +16,9 @@ import com.codepath.apps.mysimpletweet.models.User;
 import java.util.ArrayList;
 import java.util.List;
 
+import butterknife.Bind;
+import butterknife.ButterKnife;
+
 /**
  * Created by AlecksJohanssen on 3/26/2016.
  */
@@ -39,19 +42,14 @@ public class MentionsAdapter extends RecyclerView.Adapter<MentionsAdapter.ViewHo
         notifyDataSetChanged();
     }
     public static class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        private ImageView ivProfile;
-        private TextView tvUsername;
-        private TextView tvMentions;
-        private TextView tvMentionsDate;
+        @Bind(R.id.ivAva) ImageView ivProfile;
+        @Bind(R.id.tvName) TextView tvUsername;
+        @Bind(R.id.tvMentions) TextView tvMentions;
+        @Bind(R.id.tvMentionsDate) TextView tvMentionsDate;
         public ViewHolder(View view) {
             super(view);
-            ivProfile = (ImageView) view.findViewById(R.id.ivAva);
-            tvUsername = (TextView) view.findViewById(R.id.tvName);
-            tvMentions = (TextView) view.findViewById(R.id.tvMentions);
-            tvMentionsDate = (TextView) view.findViewById(R.id.tvMentionsDate);
-
+            ButterKnife.bind(this, view);
             view.setOnClickListener(this);
-
         }
 
         @Override
