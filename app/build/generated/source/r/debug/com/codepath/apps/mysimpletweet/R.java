@@ -2885,6 +2885,8 @@ containing a value of this type.
         public static final int Widget_Design_Snackbar=0x7f08015a;
         public static final int Widget_Design_TabLayout=0x7f080001;
         public static final int Widget_Design_TextInputLayout=0x7f08015b;
+        public static final int counterOverride=0x7f08015c;
+        public static final int counterText=0x7f08015d;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.

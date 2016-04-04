@@ -1712,4 +1712,10 @@
         <item name="counterTextAppearance">@style/TextAppearance.Design.Counter</item>
         <item name="counterOverflowTextAppearance">@style/TextAppearance.Design.Counter.Overflow</item>
     </style>
+    <style name="counterOverride">
+        <item name="android:textColor">#ff0000</item>
+    </style>
+    <style name="counterText">
+        <item name="android:textColor">#aa5353cc</item>
+    </style>
 </resources>

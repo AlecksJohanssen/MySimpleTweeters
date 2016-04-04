@@ -42,7 +42,6 @@ public class PostTweetDialog extends DialogFragment  {
         this.client = client;
     }
     public Dialog onCreateDialog(Bundle savedInstanceState) {
-
         LayoutInflater inflater = getActivity().getLayoutInflater();
         final View dialogView = inflater.inflate(R.layout.post_tweet, null);
         tweets = new ArrayList<>();
@@ -54,6 +53,7 @@ public class PostTweetDialog extends DialogFragment  {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         etComposeTweet = (EditText) dialogView.findViewById(R.id.posttxt);
+                        int length = etComposeTweet.getText().length();
                         body = etComposeTweet.getText().toString();
                         client.postTweet(body, new JsonHttpResponseHandler() {
                             @Override
