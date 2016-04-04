@@ -1,16 +1,16 @@
 <resources>
 
-    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">'
+        <item name="colorControlNormal">#4099FF</item>
+        <item name="colorControlActivated">#4099FF</item>
+        <item name="colorControlHighlight">#4099FF</item>
     </style>
 
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="colorControlNormal">#000</item>
+        <item name="colorControlActivated">#4099FF</item>
+        <item name="colorControlHighlight">#000</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -19,13 +19,17 @@
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
     <style name="counterText">
         <item name="android:textColor">#aa5353cc</item>
     </style>
-
     <style name="counterOverride">
         <item name="android:textColor">#ff0000</item>
+    </style>
+    <style name="Theme.App.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">#000</item>
+        <item name="colorControlActivated">#4099FF</item>
+        <item name="colorControlHighlight">#000</item>
     </style>
 </resources>

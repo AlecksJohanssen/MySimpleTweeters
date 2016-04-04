@@ -10,7 +10,8 @@
         app:counterMaxLength="140"
         app:counterTextAppearance="@style/counterText"
         app:counterOverflowTextAppearance="@style/counterOverride"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        >
     <EditText
         android:id="@+id/posttxt"
         android:layout_width="match_parent"

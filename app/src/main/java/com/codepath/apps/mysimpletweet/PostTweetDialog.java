@@ -53,7 +53,6 @@ public class PostTweetDialog extends DialogFragment  {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         etComposeTweet = (EditText) dialogView.findViewById(R.id.posttxt);
-                        int length = etComposeTweet.getText().length();
                         body = etComposeTweet.getText().toString();
                         client.postTweet(body, new JsonHttpResponseHandler() {
                             @Override
@@ -75,7 +74,7 @@ public class PostTweetDialog extends DialogFragment  {
 
             @Override
             public void onClick(DialogInterface dialog, int id) {
-                dialogFragment.onDialogNegativeClick(PostTweetDialog.this);
+                dialog.dismiss();
             }
         });
         return TweetDialog.create();
