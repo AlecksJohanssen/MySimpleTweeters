@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.codepath.apps.mysimpletweet.models.Tweet;
 import com.loopj.android.http.JsonHttpResponseHandler;
@@ -21,13 +22,9 @@ import java.util.ArrayList;
 
 public class OneFragment extends Fragment {
     private SwipeRefreshLayout swipeContainer;
-    private TweetArrayAdapter adapter;
-        private RecyclerView rvItems;
-        public TimelineActivity timeline;
-        private int page;
-        private ArrayList<Tweet> tweets;
-
-
+     static TweetArrayAdapter adapter;
+    private RecyclerView rvItems;
+     static ArrayList<Tweet> tweets;
     public OneFragment() {
         // Required empty public constructor
     }
@@ -54,7 +51,7 @@ public class OneFragment extends Fragment {
             @Override
             public void onRefresh() {
                 adapter.clear();
-                populateTimeline(page);
+                populateTimeline(1);
                 swipeContainer.setEnabled(true);
                 adapter.addAll(tweets);
                 adapter.notifyDataSetChanged();
@@ -72,8 +69,7 @@ public class OneFragment extends Fragment {
             public void onSuccess(int statusCode, Header[] headers, JSONArray response) {
                 Log.d("DEBUG", response.toString());
                 tweets.addAll(Tweet.fromJSONArray(response));
-                Log.d("DEBUG", "null " + (tweets.size()));
-                adapter.updateTweets(tweets);
+                adapter.notifyDataSetChanged();
                 swipeContainer.setRefreshing(false);
             }
 
@@ -82,7 +78,4 @@ public class OneFragment extends Fragment {
             }
         }, page);
     }
-
-
-
 }

@@ -33,8 +33,8 @@ import java.util.ArrayList;
 public class PostTweetDialog extends DialogFragment  {
     private RestClient client;
     private PostTweetInterface dialogFragment;
-    ArrayList<Tweet> tweets;
-    TweetArrayAdapter adapter;
+    private static ArrayList<Tweet> tweets;
+    private static  TweetArrayAdapter adapter;
     String body;
     private EditText etComposeTweet;
     @SuppressLint("ValidFragment")
@@ -58,14 +58,13 @@ public class PostTweetDialog extends DialogFragment  {
                             @Override
                             public void onSuccess(int statusCode, Header[] headers, JSONObject json) {
                                 Tweet myNewTweet = Tweet.fromJSON(json);
-                                tweets.add(0,myNewTweet);
-                                adapter.notifyItemInserted(0);
+                                OneFragment.tweets.add(0, myNewTweet);
+                                OneFragment.adapter.notifyDataSetChanged();
                             }
                             @Override
                             public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
                                 Log.d("Madness", errorResponse.toString());
                             }
-
                         });
 
                     }
