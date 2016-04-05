@@ -35,7 +35,7 @@
                     android:text="Name"
                     android:id="@+id/tvName"
                     android:layout_marginLeft="5dp"
-                    android:textColor="#4c4cff"
+                    android:textColor="#4099FF"
                     android:textStyle="bold"/>
 
                 <TextView
@@ -59,6 +59,7 @@
                 android:text="BodyText"
                 android:autoLink="all"
                 android:linksClickable="true"
+                android:textColorLink="#4099FF"
                 android:id="@+id/tvBodyText"
                 android:layout_marginLeft="5dp"
                 android:clickable="true"/>

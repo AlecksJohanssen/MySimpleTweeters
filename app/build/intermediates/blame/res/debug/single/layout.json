@@ -160,12 +160,12 @@
         "source": "C:\\Users\\JohnWhisker\\Desktop\\Working\\Android\\Aleck's Tweet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
-        "merged": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\posttweet.xml",
-        "source": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\src\\main\\res\\layout\\posttweet.xml"
-    },
-    {
         "merged": "C:\\Users\\AlecksJohanssen\\Desktop\\Aleck's Tweet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "C:\\Users\\AlecksJohanssen\\Desktop\\Aleck's Tweet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\posttweet.xml",
+        "source": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\src\\main\\res\\layout\\posttweet.xml"
     },
     {
         "merged": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabs.xml",
