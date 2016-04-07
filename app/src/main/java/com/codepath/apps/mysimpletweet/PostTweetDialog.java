@@ -36,7 +36,7 @@ public class PostTweetDialog extends DialogFragment  {
     private static ArrayList<Tweet> tweets;
     private static  TweetArrayAdapter adapter;
     String body;
-    private EditText etComposeTweet;
+    private EditText ComposeTweet;
     @SuppressLint("ValidFragment")
     public PostTweetDialog(RestClient client) {
         this.client = client;
@@ -52,8 +52,8 @@ public class PostTweetDialog extends DialogFragment  {
                 .setPositiveButton("Continue", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        etComposeTweet = (EditText) dialogView.findViewById(R.id.posttxt);
-                        body = etComposeTweet.getText().toString();
+                        ComposeTweet = (EditText) dialogView.findViewById(R.id.posttxt);
+                        body = ComposeTweet.getText().toString();
                         client.postTweet(body, new JsonHttpResponseHandler() {
                             @Override
                             public void onSuccess(int statusCode, Header[] headers, JSONObject json) {
