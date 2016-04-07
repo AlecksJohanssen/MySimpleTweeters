@@ -3432,7 +3432,14 @@
                     "endOffset": 442
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 90,
+                        "endOffset": 141
+                    }
                 }
             },
             {
@@ -3444,7 +3451,14 @@
                     "endOffset": 545
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 146,
+                        "endColumn": 102,
+                        "endOffset": 244
+                    }
                 }
             },
             {
@@ -3456,7 +3470,14 @@
                     "endOffset": 648
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 249,
+                        "endColumn": 102,
+                        "endOffset": 347
+                    }
                 }
             },
             {
@@ -3468,7 +3489,14 @@
                     "endOffset": 753
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 352,
+                        "endColumn": 104,
+                        "endOffset": 452
+                    }
                 }
             },
             {
@@ -3480,7 +3508,14 @@
                     "endOffset": 860
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 457,
+                        "endColumn": 106,
+                        "endOffset": 559
+                    }
                 }
             },
             {
@@ -3492,7 +3527,14 @@
                     "endOffset": 969
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 564,
+                        "endColumn": 108,
+                        "endOffset": 668
+                    }
                 }
             },
             {
@@ -3504,7 +3546,14 @@
                     "endOffset": 1078
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 673,
+                        "endColumn": 108,
+                        "endOffset": 777
+                    }
                 }
             },
             {
@@ -3516,7 +3565,14 @@
                     "endOffset": 1187
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 782,
+                        "endColumn": 108,
+                        "endOffset": 886
+                    }
                 }
             },
             {
@@ -3528,7 +3584,14 @@
                     "endOffset": 1296
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 891,
+                        "endColumn": 108,
+                        "endOffset": 995
+                    }
                 }
             },
             {
@@ -3540,7 +3603,14 @@
                     "endOffset": 1405
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1000,
+                        "endColumn": 108,
+                        "endOffset": 1104
+                    }
                 }
             },
             {
@@ -3552,7 +3622,14 @@
                     "endOffset": 1512
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1109,
+                        "endColumn": 106,
+                        "endOffset": 1211
+                    }
                 }
             },
             {
@@ -3564,7 +3641,14 @@
                     "endOffset": 1615
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1216,
+                        "endColumn": 102,
+                        "endOffset": 1314
+                    }
                 }
             },
             {
@@ -3576,7 +3660,14 @@
                     "endOffset": 1734
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1319,
+                        "endColumn": 118,
+                        "endOffset": 1433
+                    }
                 }
             },
             {
@@ -3589,7 +3680,15 @@
                     "endOffset": 1889
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1438,
+                        "endLine": 16,
+                        "endColumn": 12,
+                        "endOffset": 1588
+                    }
                 }
             },
             {
@@ -3602,7 +3701,15 @@
                     "endOffset": 2044
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1593,
+                        "endLine": 18,
+                        "endColumn": 12,
+                        "endOffset": 1743
+                    }
                 }
             },
             {
@@ -3614,7 +3721,14 @@
                     "endOffset": 2149
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1748,
+                        "endColumn": 104,
+                        "endOffset": 1848
+                    }
                 }
             },
             {
@@ -3626,7 +3740,14 @@
                     "endOffset": 2270
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1853,
+                        "endColumn": 120,
+                        "endOffset": 1969
+                    }
                 }
             },
             {
@@ -3638,7 +3759,14 @@
                     "endOffset": 2371
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1974,
+                        "endColumn": 100,
+                        "endOffset": 2070
+                    }
                 }
             },
             {
@@ -3651,7 +3779,15 @@
                     "endOffset": 2518
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2075,
+                        "endLine": 23,
+                        "endColumn": 12,
+                        "endOffset": 2217
+                    }
                 }
             },
             {
@@ -3664,7 +3800,15 @@
                     "endOffset": 2659
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 2222,
+                        "endLine": 25,
+                        "endColumn": 12,
+                        "endOffset": 2358
+                    }
                 }
             },
             {
@@ -3676,7 +3820,14 @@
                     "endOffset": 2762
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 2363,
+                        "endColumn": 102,
+                        "endOffset": 2461
+                    }
                 }
             },
             {
@@ -3688,7 +3839,14 @@
                     "endOffset": 2881
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 2466,
+                        "endColumn": 118,
+                        "endOffset": 2580
+                    }
                 }
             },
             {
@@ -3700,7 +3858,14 @@
                     "endOffset": 2988
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 2585,
+                        "endColumn": 106,
+                        "endOffset": 2687
+                    }
                 }
             },
             {
@@ -3712,7 +3877,14 @@
                     "endOffset": 3091
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 2692,
+                        "endColumn": 102,
+                        "endOffset": 2790
+                    }
                 }
             },
             {
@@ -3725,7 +3897,15 @@
                     "endOffset": 3246
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 2795,
+                        "endLine": 31,
+                        "endColumn": 12,
+                        "endOffset": 2945
+                    }
                 }
             },
             {
@@ -3738,7 +3918,15 @@
                     "endOffset": 3417
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 2950,
+                        "endLine": 33,
+                        "endColumn": 12,
+                        "endOffset": 3116
+                    }
                 }
             },
             {
@@ -3751,7 +3939,15 @@
                     "endOffset": 3566
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 3121,
+                        "endLine": 35,
+                        "endColumn": 12,
+                        "endOffset": 3265
+                    }
                 }
             },
             {
@@ -3764,7 +3960,15 @@
                     "endOffset": 3731
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 3270,
+                        "endLine": 37,
+                        "endColumn": 12,
+                        "endOffset": 3430
+                    }
                 }
             },
             {
@@ -3777,7 +3981,15 @@
                     "endOffset": 3888
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 3435,
+                        "endLine": 39,
+                        "endColumn": 12,
+                        "endOffset": 3587
+                    }
                 }
             },
             {
@@ -3790,7 +4002,15 @@
                     "endOffset": 4039
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 3592,
+                        "endLine": 41,
+                        "endColumn": 12,
+                        "endOffset": 3738
+                    }
                 }
             },
             {
@@ -3802,7 +4022,14 @@
                     "endOffset": 4158
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 3743,
+                        "endColumn": 118,
+                        "endOffset": 3857
+                    }
                 }
             },
             {
@@ -3815,7 +4042,15 @@
                     "endOffset": 4307
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 3862,
+                        "endLine": 44,
+                        "endColumn": 12,
+                        "endOffset": 4006
+                    }
                 }
             },
             {
@@ -3828,7 +4063,15 @@
                     "endOffset": 4456
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 4011,
+                        "endLine": 46,
+                        "endColumn": 12,
+                        "endOffset": 4155
+                    }
                 }
             },
             {
@@ -3840,7 +4083,14 @@
                     "endOffset": 4568
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 4160,
+                        "endColumn": 111,
+                        "endOffset": 4267
+                    }
                 }
             },
             {
@@ -3852,7 +4102,14 @@
                     "endOffset": 4715
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 4272,
+                        "endColumn": 146,
+                        "endOffset": 4414
+                    }
                 }
             },
             {
@@ -3865,7 +4122,15 @@
                     "endOffset": 4868
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 4419,
+                        "endLine": 50,
+                        "endColumn": 12,
+                        "endOffset": 4567
+                    }
                 }
             },
             {
@@ -3878,7 +4143,15 @@
                     "endOffset": 5015
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 4572,
+                        "endLine": 52,
+                        "endColumn": 12,
+                        "endOffset": 4714
+                    }
                 }
             },
             {
@@ -3890,7 +4163,14 @@
                     "endOffset": 5090
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 4719,
+                        "endColumn": 74,
+                        "endOffset": 4789
+                    }
                 }
             },
             {
@@ -3902,7 +4182,14 @@
                     "endOffset": 5179
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 4794,
+                        "endColumn": 88,
+                        "endOffset": 4878
+                    }
                 }
             },
             {
@@ -3914,7 +4201,14 @@
                     "endOffset": 5266
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 4883,
+                        "endColumn": 86,
+                        "endOffset": 4965
+                    }
                 }
             },
             {
@@ -3926,7 +4220,14 @@
                     "endOffset": 5367
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 4970,
+                        "endColumn": 100,
+                        "endOffset": 5066
+                    }
                 }
             },
             {
@@ -3939,7 +4240,15 @@
                     "endOffset": 8435
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 5071,
+                        "endLine": 100,
+                        "endColumn": 12,
+                        "endOffset": 8134
+                    }
                 }
             },
             {
@@ -3952,7 +4261,15 @@
                     "endOffset": 8621
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 101,
+                        "startColumn": 4,
+                        "startOffset": 8139,
+                        "endLine": 103,
+                        "endColumn": 12,
+                        "endOffset": 8320
+                    }
                 }
             },
             {
@@ -3965,7 +4282,15 @@
                     "endOffset": 11701
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 4,
+                        "startOffset": 8325,
+                        "endLine": 147,
+                        "endColumn": 12,
+                        "endOffset": 11400
+                    }
                 }
             },
             {
@@ -3978,7 +4303,15 @@
                     "endOffset": 11899
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 148,
+                        "startColumn": 4,
+                        "startOffset": 11405,
+                        "endLine": 150,
+                        "endColumn": 12,
+                        "endOffset": 11598
+                    }
                 }
             },
             {
@@ -3991,7 +4324,15 @@
                     "endOffset": 12022
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 151,
+                        "startColumn": 4,
+                        "startOffset": 11603,
+                        "endLine": 152,
+                        "endColumn": 12,
+                        "endOffset": 11721
+                    }
                 }
             },
             {
@@ -4004,7 +4345,15 @@
                     "endOffset": 12145
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 153,
+                        "startColumn": 4,
+                        "startOffset": 11726,
+                        "endLine": 154,
+                        "endColumn": 12,
+                        "endOffset": 11844
+                    }
                 }
             },
             {
@@ -4017,7 +4366,15 @@
                     "endOffset": 12258
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 155,
+                        "startColumn": 4,
+                        "startOffset": 11849,
+                        "endLine": 156,
+                        "endColumn": 12,
+                        "endOffset": 11957
+                    }
                 }
             },
             {
@@ -4030,7 +4387,15 @@
                     "endOffset": 12441
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 157,
+                        "startColumn": 4,
+                        "startOffset": 11962,
+                        "endLine": 159,
+                        "endColumn": 12,
+                        "endOffset": 12140
+                    }
                 }
             },
             {
@@ -4043,7 +4408,15 @@
                     "endOffset": 12572
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 160,
+                        "startColumn": 4,
+                        "startOffset": 12145,
+                        "endLine": 161,
+                        "endColumn": 12,
+                        "endOffset": 12271
+                    }
                 }
             },
             {
@@ -4056,7 +4429,15 @@
                     "endOffset": 12773
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 162,
+                        "startColumn": 4,
+                        "startOffset": 12276,
+                        "endLine": 164,
+                        "endColumn": 12,
+                        "endOffset": 12472
+                    }
                 }
             },
             {
@@ -4068,7 +4449,14 @@
                     "endOffset": 12862
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 165,
+                        "startColumn": 4,
+                        "startOffset": 12477,
+                        "endColumn": 88,
+                        "endOffset": 12561
+                    }
                 }
             },
             {
@@ -4080,7 +4468,14 @@
                     "endOffset": 12973
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 166,
+                        "startColumn": 4,
+                        "startOffset": 12566,
+                        "endColumn": 110,
+                        "endOffset": 12672
+                    }
                 }
             },
             {
@@ -4092,7 +4487,14 @@
                     "endOffset": 13100
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 167,
+                        "startColumn": 4,
+                        "startOffset": 12677,
+                        "endColumn": 126,
+                        "endOffset": 12799
+                    }
                 }
             },
             {
@@ -4104,7 +4506,14 @@
                     "endOffset": 13201
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 168,
+                        "startColumn": 4,
+                        "startOffset": 12804,
+                        "endColumn": 100,
+                        "endOffset": 12900
+                    }
                 }
             },
             {
@@ -4116,7 +4525,14 @@
                     "endOffset": 13296
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 169,
+                        "startColumn": 4,
+                        "startOffset": 12905,
+                        "endColumn": 94,
+                        "endOffset": 12995
+                    }
                 }
             },
             {
@@ -4128,7 +4544,14 @@
                     "endOffset": 13419
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 170,
+                        "startColumn": 4,
+                        "startOffset": 13000,
+                        "endColumn": 122,
+                        "endOffset": 13118
+                    }
                 }
             },
             {
@@ -4140,7 +4563,14 @@
                     "endOffset": 13548
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 171,
+                        "startColumn": 4,
+                        "startOffset": 13123,
+                        "endColumn": 128,
+                        "endOffset": 13247
+                    }
                 }
             },
             {
@@ -4152,7 +4582,14 @@
                     "endOffset": 13665
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 172,
+                        "startColumn": 4,
+                        "startOffset": 13252,
+                        "endColumn": 116,
+                        "endOffset": 13364
+                    }
                 }
             },
             {
@@ -4165,7 +4602,15 @@
                     "endOffset": 13842
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 173,
+                        "startColumn": 4,
+                        "startOffset": 13369,
+                        "endLine": 175,
+                        "endColumn": 12,
+                        "endOffset": 13541
+                    }
                 }
             },
             {
@@ -4177,7 +4622,14 @@
                     "endOffset": 13941
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 176,
+                        "startColumn": 4,
+                        "startOffset": 13546,
+                        "endColumn": 98,
+                        "endOffset": 13640
+                    }
                 }
             },
             {
@@ -4190,7 +4642,15 @@
                     "endOffset": 14076
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 177,
+                        "startColumn": 4,
+                        "startOffset": 13645,
+                        "endLine": 178,
+                        "endColumn": 12,
+                        "endOffset": 13775
+                    }
                 }
             },
             {
@@ -4203,7 +4663,15 @@
                     "endOffset": 14219
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 179,
+                        "startColumn": 4,
+                        "startOffset": 13780,
+                        "endLine": 180,
+                        "endColumn": 12,
+                        "endOffset": 13918
+                    }
                 }
             },
             {
@@ -4216,7 +4684,15 @@
                     "endOffset": 14354
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 181,
+                        "startColumn": 4,
+                        "startOffset": 13923,
+                        "endLine": 182,
+                        "endColumn": 12,
+                        "endOffset": 14053
+                    }
                 }
             },
             {
@@ -4229,7 +4705,15 @@
                     "endOffset": 14473
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 183,
+                        "startColumn": 4,
+                        "startOffset": 14058,
+                        "endLine": 184,
+                        "endColumn": 12,
+                        "endOffset": 14172
+                    }
                 }
             },
             {
@@ -4242,7 +4726,15 @@
                     "endOffset": 14674
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 185,
+                        "startColumn": 4,
+                        "startOffset": 14177,
+                        "endLine": 188,
+                        "endColumn": 12,
+                        "endOffset": 14373
+                    }
                 }
             },
             {
@@ -4255,7 +4747,15 @@
                     "endOffset": 14793
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 189,
+                        "startColumn": 4,
+                        "startOffset": 14378,
+                        "endLine": 190,
+                        "endColumn": 12,
+                        "endOffset": 14492
+                    }
                 }
             },
             {
@@ -4267,7 +4767,14 @@
                     "endOffset": 14886
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 191,
+                        "startColumn": 4,
+                        "startOffset": 14497,
+                        "endColumn": 92,
+                        "endOffset": 14585
+                    }
                 }
             },
             {
@@ -4279,7 +4786,14 @@
                     "endOffset": 14997
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 192,
+                        "startColumn": 4,
+                        "startOffset": 14590,
+                        "endColumn": 110,
+                        "endOffset": 14696
+                    }
                 }
             },
             {
@@ -4291,7 +4805,14 @@
                     "endOffset": 15053
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 193,
+                        "startColumn": 4,
+                        "startOffset": 14701,
+                        "endColumn": 55,
+                        "endOffset": 14752
+                    }
                 }
             },
             {
@@ -4304,7 +4825,15 @@
                     "endOffset": 15160
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 194,
+                        "startColumn": 4,
+                        "startOffset": 14757,
+                        "endLine": 195,
+                        "endColumn": 12,
+                        "endOffset": 14859
+                    }
                 }
             },
             {
@@ -4317,7 +4846,15 @@
                     "endOffset": 15355
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 196,
+                        "startColumn": 4,
+                        "startOffset": 14864,
+                        "endLine": 199,
+                        "endColumn": 12,
+                        "endOffset": 15054
+                    }
                 }
             },
             {
@@ -4330,7 +4867,15 @@
                     "endOffset": 15466
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 200,
+                        "startColumn": 4,
+                        "startOffset": 15059,
+                        "endLine": 201,
+                        "endColumn": 12,
+                        "endOffset": 15165
+                    }
                 }
             },
             {
@@ -4343,7 +4888,15 @@
                     "endOffset": 15599
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 202,
+                        "startColumn": 4,
+                        "startOffset": 15170,
+                        "endLine": 203,
+                        "endColumn": 12,
+                        "endOffset": 15298
+                    }
                 }
             },
             {
@@ -4355,7 +4908,14 @@
                     "endOffset": 15694
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 204,
+                        "startColumn": 4,
+                        "startOffset": 15303,
+                        "endColumn": 94,
+                        "endOffset": 15393
+                    }
                 }
             },
             {
@@ -4367,7 +4927,14 @@
                     "endOffset": 15785
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 205,
+                        "startColumn": 4,
+                        "startOffset": 15398,
+                        "endColumn": 90,
+                        "endOffset": 15484
+                    }
                 }
             },
             {
@@ -4379,7 +4946,14 @@
                     "endOffset": 15876
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 206,
+                        "startColumn": 4,
+                        "startOffset": 15489,
+                        "endColumn": 90,
+                        "endOffset": 15575
+                    }
                 }
             },
             {
@@ -4391,7 +4965,14 @@
                     "endOffset": 15993
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 207,
+                        "startColumn": 4,
+                        "startOffset": 15580,
+                        "endColumn": 116,
+                        "endOffset": 15692
+                    }
                 }
             },
             {
@@ -4404,7 +4985,15 @@
                     "endOffset": 16132
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 208,
+                        "startColumn": 4,
+                        "startOffset": 15697,
+                        "endLine": 209,
+                        "endColumn": 12,
+                        "endOffset": 15831
+                    }
                 }
             },
             {
@@ -4417,7 +5006,15 @@
                     "endOffset": 16645
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 210,
+                        "startColumn": 4,
+                        "startOffset": 15836,
+                        "endLine": 219,
+                        "endColumn": 12,
+                        "endOffset": 16344
+                    }
                 }
             },
             {
@@ -4430,7 +5027,15 @@
                     "endOffset": 17170
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 220,
+                        "startColumn": 4,
+                        "startOffset": 16349,
+                        "endLine": 229,
+                        "endColumn": 12,
+                        "endOffset": 16869
+                    }
                 }
             },
             {
@@ -4443,7 +5048,15 @@
                     "endOffset": 17850
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 230,
+                        "startColumn": 4,
+                        "startOffset": 16874,
+                        "endLine": 239,
+                        "endColumn": 12,
+                        "endOffset": 17549
+                    }
                 }
             },
             {
@@ -4455,7 +5068,14 @@
                     "endOffset": 17907
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 240,
+                        "startColumn": 4,
+                        "startOffset": 17554,
+                        "endColumn": 56,
+                        "endOffset": 17606
+                    }
                 }
             },
             {
@@ -4467,7 +5087,14 @@
                     "endOffset": 17965
                 },
                 "from": {
-                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml"
+                    "file": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 241,
+                        "startColumn": 4,
+                        "startOffset": 17611,
+                        "endColumn": 57,
+                        "endOffset": 17664
+                    }
                 }
             }
         ]

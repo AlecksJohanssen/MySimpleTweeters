@@ -30,11 +30,6 @@ View tweetView;
     {
         lTweets = tweets;
     }
-
-    public void updateTweets(List<Tweet> list){
-        lTweets = list;
-        notifyDataSetChanged();
-    }
     public void clear() {
         lTweets.clear();
         notifyDataSetChanged();
@@ -49,8 +44,10 @@ View tweetView;
         @Bind(R.id.ivAva) ImageView ivProfile;
         @Bind(R.id.tvName) TextView tvUsername;
         @Bind(R.id.tvBodyText) TextView tvBody;
+        @Bind(R.id.tvScreenName) TextView tvSName;
         @Bind(R.id.ivPictures) ImageView ivNew;
         @Bind(R.id.tvDate) TextView tvDate;
+        //@Bind(R.id.mtPictures) ImageView mtNew;
         public ViewHolder(View view) {
             super(view);
             ButterKnife.bind(this,view);
@@ -81,9 +78,11 @@ View tweetView;
         } else
             holder.ivNew.setVisibility(View.GONE);
         holder.tvUsername.setText(tweet.getUser().getName());
+        holder.tvSName.setText("@"+tweet.getUser().getScreenname());
         holder.tvBody.setText(tweet.getBody());
         holder.ivProfile.setImageResource(android.R.color.transparent);
         Glide.with(context).load(tweet.getUser().getProfileImageUrl()).into(holder.ivProfile);
+        //Glide.with(context).load(tweet.getUser().getProfileImageUrl()).into(holder.mtNew);
     }
 
     @Override

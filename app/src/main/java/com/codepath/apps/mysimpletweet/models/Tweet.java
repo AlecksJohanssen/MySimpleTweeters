@@ -50,9 +50,8 @@ public class Tweet {
     }
     public String getRelativeTimeAgo() {
         String twitterFormat = "EEE MMM dd HH:mm:ss ZZZZZ yyyy";
-        SimpleDateFormat sf = new SimpleDateFormat(twitterFormat, Locale.ENGLISH);
+        SimpleDateFormat sf = new SimpleDateFormat(twitterFormat, Locale.getDefault());
         sf.setLenient(true);
-
         String relativeDate = "";
         try {
             long dateMillis = sf.parse(getCreateAt()).getTime();

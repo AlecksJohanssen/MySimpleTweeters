@@ -46,6 +46,8 @@ public class MentionsAdapter extends RecyclerView.Adapter<MentionsAdapter.ViewHo
         @Bind(R.id.tvName) TextView tvUsername;
         @Bind(R.id.tvMentions) TextView tvMentions;
         @Bind(R.id.tvMentionsDate) TextView tvMentionsDate;
+        @Bind(R.id.ivPictures) ImageView ivNew;
+        @Bind(R.id.tvScreenName) TextView tvSName;
         public ViewHolder(View view) {
             super(view);
             ButterKnife.bind(this, view);
@@ -73,6 +75,8 @@ public class MentionsAdapter extends RecyclerView.Adapter<MentionsAdapter.ViewHo
         holder.ivProfile.setImageResource(android.R.color.transparent);
         holder.tvMentions.setText(tweet.textMentions);
         Glide.with(context).load(tweet.getUser().getProfileImageUrl()).into(holder.ivProfile);
+        Glide.with(context).load(tweet.getUser().getProfileImageUrl()).into(holder.ivNew);
+        holder.tvSName.setText("@"+tweet.getUser().getScreenname());
     }
 
     @Override
