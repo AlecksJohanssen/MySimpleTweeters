@@ -1,6 +1,16 @@
 package com.codepath.apps.mysimpletweet.models;
 
 import android.text.format.DateUtils;
+import android.util.Log;
+import android.widget.Toast;
+
+import com.codepath.apps.mysimpletweet.RestApplication;
+import com.codepath.apps.mysimpletweet.RestClient;
+import com.codepath.apps.mysimpletweet.TimelineActivity;
+import com.codepath.apps.mysimpletweet.TweetArrayAdapter;
+import com.loopj.android.http.JsonHttpResponseHandler;
+
+import org.apache.http.Header;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -19,6 +29,7 @@ public class Tweet {
     private String createAt;
     private User user;
     private String urlImageNews;
+    private Boolean mGetFavorite;
     private static String url;
     public ArrayList<User> mentions;
     public String textMentions;
@@ -33,7 +44,10 @@ public class Tweet {
     public String getBody() {
         return body;
     }
-
+    public Boolean getmGetFavorite()
+    {
+        return mGetFavorite;
+    }
     public long getUid() {
         return uid;
     }
@@ -73,12 +87,16 @@ public class Tweet {
             twt.user = User.fromJSON(jsonObject.getJSONObject("user"));
             twt.mentions = LoadMentions(jsonObject);
             twt.textMentions = jsonObject.getString("text");
+            twt.mGetFavorite = jsonObject.getBoolean("favorited");
+            Log.d("Favorited","Favor"+twt.mGetFavorite);
+            Log.d("ID","ID"+twt.uid);
             JSONArray media = jsonObject.getJSONObject("entities").optJSONArray("media");
             if (media != null) {
                 for (int i = 0; i < media.length(); i++) {
                     JSONObject a = media.getJSONObject(i);
                     if (a.getString("type").equals("photo")) {
                         twt.urlImageNews = a.getString("media_url_https");
+
 
                     }
 
@@ -92,6 +110,27 @@ public class Tweet {
 
         return twt;
     }
+        public void onFavorite(final Tweet tweet)
+        {
+            RestApplication.getRestClient().performFavorite(tweet, new JsonHttpResponseHandler()
+            {
+                @Override
+                public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
+                    final Tweet t = Tweet.fromJSON(response);
+                    String toastMsg = String.format("Successfully favorited ", t.user.getScreenname());
+                    Log.d("FAVORITE","SUCCESSFUL");
+                    tweet.mGetFavorite = true;
+                    Log.d("Test1","Test2"+tweet.mGetFavorite);
+
+                }
+
+                @Override
+                public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
+                    Log.d("FAILED TO FAVOR","FAILED");
+                }
+            });
+
+        }
     private static ArrayList<User> LoadMentions(JSONObject object) throws JSONException{
         if (!object.getJSONObject("entities").has("user_mentions")) {
             return  null;

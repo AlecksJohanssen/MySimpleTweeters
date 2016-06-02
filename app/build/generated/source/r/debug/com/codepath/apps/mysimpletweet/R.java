@@ -2383,16 +2383,14 @@ containing a value of this type.
         public static final int compose=0x7f02004b;
         public static final int design_fab_background=0x7f02004c;
         public static final int design_snackbar_background=0x7f02004d;
-        public static final int ic_arrow_reply=0x7f02004e;
-        public static final int ic_launcher=0x7f02004f;
-        public static final int ic_retweet=0x7f020050;
-        public static final int ic_star=0x7f020051;
-        public static final int ic_tab_call=0x7f020052;
-        public static final int ic_tab_contacts=0x7f020053;
-        public static final int ic_tab_favourite=0x7f020054;
-        public static final int notification_template_icon_bg=0x7f020057;
-        public static final int twitterfab=0x7f020055;
-        public static final int twitterpost=0x7f020056;
+        public static final int ic_launcher=0x7f02004e;
+        public static final int ic_retweet=0x7f02004f;
+        public static final int notification_template_icon_bg=0x7f020055;
+        public static final int repy=0x7f020050;
+        public static final int retweet=0x7f020051;
+        public static final int star=0x7f020052;
+        public static final int twitterfab=0x7f020053;
+        public static final int twitterpost=0x7f020054;
     }
     public static final class id {
         public static final int action0=0x7f0b0086;

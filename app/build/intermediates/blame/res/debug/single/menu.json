@@ -1,17 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\AlecksJohanssen\\Desktop\\Aleck's Tweet\\app\\build\\intermediates\\res\\merged\\debug\\menu\\login.xml",
-        "source": "C:\\Users\\AlecksJohanssen\\Desktop\\Aleck's Tweet\\app\\src\\main\\res\\menu\\login.xml"
-    },
-    {
-        "merged": "C:\\Users\\JohnWhisker\\Desktop\\Working\\Android\\Aleck's Tweet\\app\\build\\intermediates\\res\\merged\\debug\\menu\\login.xml",
-        "source": "C:\\Users\\JohnWhisker\\Desktop\\Working\\Android\\Aleck's Tweet\\app\\src\\main\\res\\menu\\login.xml"
-    },
-    {
-        "merged": "C:\\Users\\JohnWhisker\\Desktop\\Working\\Android\\Aleck's Tweet\\C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets\\app\\build\\intermediates\\res\\merged\\debug\\menu\\login.xml",
-        "source": "C:\\Users\\JohnWhisker\\Desktop\\Working\\Android\\Aleck's Tweet\\C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets\\app\\src\\main\\res\\menu\\login.xml"
-    },
-    {
         "merged": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\login.xml",
         "source": "C:\\Users\\AlecksJohanssen\\Desktop\\MySimpleTweets-master\\app\\src\\main\\res\\menu\\login.xml"
     },

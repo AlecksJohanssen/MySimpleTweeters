@@ -83,7 +83,7 @@
                     android:id="@+id/ivFavorite"
                     android:layout_width="@dimen/DPScaler"
                     android:layout_height="@dimen/DPScaler"
-                    android:src="@drawable/ic_star"
+                    android:src="@drawable/star"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="75dp"/>
                 <ImageView
@@ -91,13 +91,13 @@
                     android:layout_width="@dimen/DPScaler"
                     android:layout_height="@dimen/DPScaler"
                     android:layout_marginLeft="20dp"
-                    android:src="@drawable/ic_arrow_reply"/>
+                    android:src="@drawable/repy"/>
                 <ImageView
                     android:id="@+id/ivRetweet"
                     android:layout_width="@dimen/DPScaler"
                     android:layout_height="@dimen/DPScaler"
                     android:layout_marginLeft="90dp"
-                    android:src="@drawable/ic_retweet"/>
+                    android:src="@drawable/retweet"/>
             </LinearLayout>
 
         </LinearLayout>

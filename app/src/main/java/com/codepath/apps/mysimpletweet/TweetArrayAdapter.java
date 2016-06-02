@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.codepath.apps.mysimpletweet.models.Tweet;
@@ -25,6 +26,8 @@ public class TweetArrayAdapter extends RecyclerView.Adapter<TweetArrayAdapter.Vi
 View tweetView;
 
     private List<Tweet> lTweets;
+    private Tweet tweet;
+    private Boolean mFavorited;
 
     public TweetArrayAdapter(List<Tweet> tweets)
     {
@@ -47,6 +50,7 @@ View tweetView;
         @Bind(R.id.tvScreenName) TextView tvSName;
         @Bind(R.id.ivPictures) ImageView ivNew;
         @Bind(R.id.tvDate) TextView tvDate;
+        @Bind(R.id.ivFavorite) ImageView ivFavorite;
         //@Bind(R.id.mtPictures) ImageView mtNew;
         public ViewHolder(View view) {
             super(view);
@@ -67,10 +71,13 @@ View tweetView;
         ViewHolder viewHolder = new ViewHolder(tweetView);
         return viewHolder;
     }
+
+
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         Log.d("debug", "int:: "+ position);
-        Tweet tweet = lTweets.get(position);
+         tweet = lTweets.get(position);
+        mFavorited = tweet.getmGetFavorite();
         holder.tvDate.setText(tweet.getRelativeTimeAgo());
         if (tweet.getUrlImageNews() != null && !tweet.getUrlImageNews().isEmpty()) {
             holder.ivNew.setVisibility(View.VISIBLE);
@@ -83,6 +90,13 @@ View tweetView;
         holder.ivProfile.setImageResource(android.R.color.transparent);
         Glide.with(context).load(tweet.getUser().getProfileImageUrl()).into(holder.ivProfile);
         //Glide.with(context).load(tweet.getUser().getProfileImageUrl()).into(holder.mtNew);
+        holder.ivFavorite.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                tweet.onFavorite(tweet);
+            }
+        });
     }
 
     @Override

@@ -1,7 +1,9 @@
 package com.codepath.apps.mysimpletweet;
 
 import android.content.Context;
+import android.util.Log;
 
+import com.codepath.apps.mysimpletweet.models.Tweet;
 import com.codepath.oauth.OAuthBaseClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
@@ -55,8 +57,13 @@ public class RestClient extends OAuthBaseClient {
 		RequestParams params = new RequestParams();
 		params.put("since_id",1);
 		getClient().get(apiUrl, params, handler);
-
-
+	}
+	public void performFavorite(Tweet tweet, AsyncHttpResponseHandler handler) {
+		RequestParams params = new RequestParams();
+		params.put("id", tweet.getUid());
+		Log.d("id1","id2"+tweet.getUid());
+		String apiUrl = getApiUrl("favorites/create.json");
+		getClient().post(apiUrl, params, handler);
 	}
 	/* 1. Define the endpoint URL with getApiUrl and pass a relative path to the endpoint
 	 * 	  i.e getApiUrl("statuses/home_timeline.json");
@@ -66,4 +73,5 @@ public class RestClient extends OAuthBaseClient {
 	 *    i.e client.get(apiUrl, params, handler);
 	 *    i.e client.post(apiUrl, params, handler);
 	 */
+
 }
