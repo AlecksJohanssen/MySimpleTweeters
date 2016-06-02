@@ -116,8 +116,6 @@ public class Tweet {
             {
                 @Override
                 public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
-                    final Tweet t = Tweet.fromJSON(response);
-                    String toastMsg = String.format("Successfully favorited ", t.user.getScreenname());
                     Log.d("FAVORITE","SUCCESSFUL");
                     tweet.mGetFavorite = true;
                     Log.d("Test1","Test2"+tweet.mGetFavorite);
